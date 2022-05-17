@@ -1,0 +1,49 @@
+[
+	{
+	"id": "0",
+	"name": "Carretilha 1",
+	"price": 249.99,
+	"oldPrice": 349.99,
+	"image": "/carretilha1.webp"
+	},
+	
+	{
+	"id": "1",
+	"name": "Carretilha 2",
+	"price": 249.99,
+	"oldPrice": 349.99,
+	"image": "/carretilha2.webp"
+	},
+	
+	{"id": "2",
+	"name": "Carretilha 3",
+	"price": 249.99,
+	"oldPrice": 349.99,
+	"image": "/carretilha3.webp"
+	},
+	{"id": "2",
+	"name": "Carretilha 3",
+	"price": 249.99,
+	"oldPrice": 349.99,
+	"image": "/carretilha3.webp"
+	},
+	{
+	"id": "2",
+	"name": "Carretilha 3",
+	"price": 249.99,
+	"oldPrice": 349.99,
+	"image": "/carretilha3.webp"
+	},
+	{"id": "2",
+	"name": "Carretilha 3",
+	"price": 249.99,
+	"oldPrice": 349.99,
+	"image": "/carretilha3.webp"
+	},
+	{"id": "2",
+	"name": "Carretilha 3",
+	"price": 249.99,
+	"oldPrice": 349.99,
+	"image": "/carretilha3.webp"
+	}
+]
