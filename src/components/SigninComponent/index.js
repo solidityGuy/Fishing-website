@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import {Button} from '../ButtonElement';
 import { SigninContainer, InputField, Labels, ButtonContainer } from './SigninElements';
 

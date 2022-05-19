@@ -1,5 +1,5 @@
 import React from 'react'
-import { Video, InfoContainer, InfoWrapper, InfoRow, ImgWrap, Img, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap } from './InfoElements'
+import { Video, InfoContainer, InfoWrapper, InfoRow, ImgWrap, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap } from './InfoElements'
 import { Button } from '../ButtonElement';
 
 

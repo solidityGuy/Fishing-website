@@ -22,7 +22,7 @@ const HeroSection = () => {
     const carousel = useRef(null);
 
     useEffect(() => {
-        fetch('http://localhost:3000/carretilhas.json')
+        fetch('http://localhost:9000/promo')
         .then((response) => response.json())
         .then(setData);
     }, []);
@@ -46,7 +46,8 @@ if(!data || !data.length) return null;
                 <HeroSubtitle>Os preços mais baixos de todos os 5 oceanos</HeroSubtitle>
                 <Carrousel className="carrousel" ref={carousel}>
                     {data.map((item) => {
-                        const{id, name, price, oldPrice, image} = item;
+                        console.log(item);
+                        const{id, name, newPrice, price, image} = item;
                     return(
                     <Item key={id}>
                         <CarrImgWrap>
@@ -54,8 +55,8 @@ if(!data || !data.length) return null;
                         </CarrImgWrap>
                         <CarrInfo>
                             <Name className="carrouselText">{name}</Name>
-                            <OldPrice className="carrouselText">{oldPrice}</OldPrice>
-                            <NewPrice className="carrouselText">{price}</NewPrice>
+                            <OldPrice className="carrouselText">{price}</OldPrice>
+                            <NewPrice className="carrouselText">{newPrice}</NewPrice>
                         </CarrInfo>
                     </Item>
                     );

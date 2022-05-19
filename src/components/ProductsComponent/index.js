@@ -9,11 +9,10 @@ export const ProductsComponent = () => {
     const carousel = useRef(null);
 
     useEffect(() => {
-        fetch('http://localhost:3000/carretilhas.json')
+        fetch('http://localhost:9000/all_products')
         .then((response) => response.json())
         .then(setData);
     }, []);
-
 
     return(
         <>

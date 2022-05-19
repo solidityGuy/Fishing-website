@@ -1,7 +1,9 @@
 import React from 'react';
 import {
     NavWrap,
+    TitleWrap,
     NavbarTitle,
+    SiteIcon,
     ElemWrap,
     NavElem,
     RightWrap
@@ -12,7 +14,10 @@ const Navbar = () => {
     return(
         <>
         <NavWrap>
-            <NavbarTitle>Pesca Produtos</NavbarTitle>
+            <TitleWrap to="/">
+                <SiteIcon src="/fishing_logo.png" />
+                <NavbarTitle>Pesca Produtos</NavbarTitle>
+            </TitleWrap>
             <RightWrap>
                 <ElemWrap>
                     <NavElem to="/">Sobre nós</NavElem>
